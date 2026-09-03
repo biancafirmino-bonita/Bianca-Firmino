@@ -1,16 +1,24 @@
 <?php
+$opcao = 2;
+echo "Bem vindo a ALARES INTERNET <br>";
+echo "1 - Suporte técnico<br>";
+echo "2 - Segunda via da fatura<br>";
+echo "3 - Falar com atendente <br>";
+echo "4 - Sair <br><br>";
 
-$n1 = 8;
-$n2 = 6;
-$n3 = 7;
-$media = ($n1 + $n2 + $n3) / 3;
-
-if($media >= 7){
-    echo "Aprovado direto! 👅";
-}
-elseif($media >= 5 && $media < 7){
-    echo  "Tem direito a recuperacao! 🤩";
-}
-else{
-    echo "Reprovado 👿";
+switch ($opcao) {
+    case 1:
+        echo "Você escolheu: Suporte técnica.";
+        break;
+    case 2:
+        echo "Você escolheu: Segunda via da fatura.";
+        break;
+    case 3:
+        echo "Você será encaminhado para um atendente.";
+        break;
+    case 4:
+        echo "Obrigado por utilizar a Alares!";
+        break;
+    default:
+        echo "Opção inválida.";
 }
