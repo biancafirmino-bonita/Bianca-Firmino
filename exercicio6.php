@@ -1,9 +1,14 @@
 <?php
 
-function calcularMedia($nota1, $nota2, $nota3)
-{
-    return $nota1 + $nota2 + $nota3 / 3;
-}
+$contador = 0;
 
-echo "A média do aluno é: ";
-echo calcularMedia(10,8,5);
+for ($i = 1; $i <= 50; $i++) {
+
+    if ($i % 3 == 0) {
+        echo "$i é múltiplo de 3<br>";
+        $contador++;
+    }
+}
+echo "<br>";
+echo "Qtd de múltiplos de 3: $contador";
+?>

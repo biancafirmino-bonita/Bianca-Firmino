@@ -1,10 +1,7 @@
 <?php
 
-function calcularDobro($numero)
-{
-    return $numero * 2;
+for ($i = 10; $i >=0; $i--){
+    echo $i . "<br>";
 }
-
-echo calcularDobro(10);
-
+    echo "👻LANÇAMENTO👻";
 ?>

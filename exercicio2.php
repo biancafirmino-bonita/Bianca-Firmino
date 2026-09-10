@@ -1,14 +1,13 @@
 <?php
 
-function verificarIdade($idade)
-{
-    if ($idade >= 18){
-        return "Maior de idade. Pode tirar carta<br><br>";
+for ($i = 1; $i <= 100; $i++){
+
+    if ($i % 2 == 0){
+        echo "$i é PAR<br>";
     } else {
-            return "Maior de idade. Só de Uber rs<br><br>";
+        echo "$i ÍMPAR<br>";
+    }
 }
-}
-echo verificarIdade(17);
-echo verificarIdade(44);
-echo verificarIdade(15);
-echo verificarIdade(18);
+?>
+
+

@@ -1,8 +1,11 @@
 <?php
 
-function mostrarMensagem()
-{
-    return "Bem-Vindo ao sistema!";
+$some = 0;
+
+for ($i = 1; $i <= 100; $i++){
+    $soma = $soma + $i;
 }
 
-echo mostrarMensagem();
+echo "A soma dos números
+de 1 até 100 é: $soma";
+?>

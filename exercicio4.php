@@ -1,8 +1,12 @@
 <?php
 
-function apresentarUsuario($nome)
-{
-    return "Olá, $nome!";
-}
+$numero = 7;
 
-echo apresentarUsuario("Bianca");
+for ($i = 1; $i <= 10; $i++) {
+
+    $resultado = $numero * $i;
+
+    echo "$numero x $i = $resultado<br>";
+
+}
+?>

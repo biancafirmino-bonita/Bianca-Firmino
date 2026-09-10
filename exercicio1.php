@@ -1,10 +1,7 @@
 <?php
 
-$idade=17;
+for ($i = 1; $i <=50; $i++){
+    echo $i . "<br>";
+}
 
-if($idade >= 18){
-    echo "maior de idade";
-}
-else{
-    echo "menor de idade";
-}
+?>
